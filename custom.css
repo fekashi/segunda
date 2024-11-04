@@ -1,0 +1,51 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #8e44ad, #9b59b6); /* Gradiente de fundo */
+}
+
+.card {
+    background: linear-gradient(to bottom, #8e44ad, #9b59b6);
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra da carta */
+}
+
+    .card img {
+        border-radius: 10px 10px 0 0; /* Arredondar o topo da imagem */
+    }
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Bordas arredondadas */
+    background: white; /* Fundo branco para o container de login */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #333; /* Cor do texto (escuro) para boa legibilidade */
+}
+
+button, .btn {
+    display: inline-block; /* Exibir como bloco em linha */
+    margin: 5px 0; /* Margem vertical entre os botões */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.btn-success {
+    background-color: #2ecc71; /* Verde vibrante para adicionar prato */
+    border: none; /* Remover borda */
+}
+
+    .btn-success:hover {
+        background-color: #27ae60; /* Cor ao passar o mouse */
+    }
+
+.btn-danger {
+    background-color: #e74c3c; /* Vermelho para logout */
+    border: none; /* Remover borda */
+}
+
+    .btn-danger:hover {
+        background-color: #c0392b; /* Cor ao passar o mouse */
+    }
